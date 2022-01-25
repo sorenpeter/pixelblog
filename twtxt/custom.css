@@ -1,0 +1,99 @@
+/* == Theme: Retro == */
+
+/*:root {
+    --roundness: 0.25rem;
+    --pod-color: #4A2FFF; 
+    --pod-muted: #3623BD;
+    --bg-body: #fff;
+    --bg-post: #F7F7F7;
+    --bg-code: #eee;
+    --code-color: #D22F27;
+    --text-color: #444;
+    --text-small: #aaa;
+    --icon-color: #888;
+    --link-color: #0433FF; 
+    --link-visited: #9437FF;
+    --link-active: #941100; 
+    --link-nav: #222;
+    --input-box: #fff;
+    --input-border: #7A81FF;
+    --button-text: #fff;
+    --border-color: #ccc;
+    --warning: #941100;
+}*/
+
+
+/* == Theme: Neon == */
+
+/*:root {
+    --roundness: 0.75rem;
+    --pod-color: #4A2FFF;
+    --pod-muted: #3623BD;
+    --bg-body: #111;
+    --bg-post: #222;
+    --bg-code: #333;
+    --code-color: #64FFDA;
+    --text-color: #ffc;
+    --text-small: #888;
+    --icon-color: #64FFDA;
+    --link-color: #64FFDA;
+    --link-visited: #9437FF;
+    --link-active: #941100;
+    --link-nav: #fff;
+    --input-box: #333; 
+    --input-border: #4A2FFF;
+    --button-text: #fff;
+    --border-color: #9437FF;
+    --warning: #FCEA2C;
+}
+
+img {
+    border: none;
+    border-radius: 0;
+}*/
+
+/* == Theme: darchness == */
+
+/*:root {
+    --roundness: 0.25rem;
+    --pod-color: #9F9;
+    --pod-muted: #3623BD;
+    --bg-body: #333;
+    --bg-post: #222;
+    --bg-code: #333;
+    --code-color: #9F9;
+    --text-color: #ffe;
+    --text-small: #666;
+    --icon-color: #888;
+    --link-color: #9F9;
+    --link-visited: #9F9;
+    --link-active: #9F9;
+    --link-nav: #9F9;
+    --input-box: #666;
+    --input-border: #9F9;
+    --button-text: #333;
+    --button-bg: #9F9;
+    --border-color: #9F9;
+    --warning: #FCEA2C;
+}
+
+li.e {
+    background: var(--bg-post);
+    border: thin solid var(--border-color);
+    border-radius: var(--roundness);
+    margin-bottom: 0.5rem;
+}
+
+li a.date {
+    border: none;
+    text-align: initial;
+    color: var(--link-color);
+    margin: initial;
+    padding: initial;
+    margin-bottom: 0.5rem;
+}
+
+img {
+    border: solid #666 1px;
+    border-radius: 0;
+}*/

@@ -1,0 +1,22 @@
+#    __           __       __
+#   / /__      __/ /__  __/ /_
+#  / __/ | /| / / __/ |/_/ __/
+# / /_ | |/ |/ / /__>  </ /_
+# \__/ |__/|__/\__/_/|_|\__/
+#
+#
+# twtxt is a decentralized microblogging platform.
+# learn about it at https://github.com/buckket/twtxt
+# you can join at https://yarn.social
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#
+#   nick = sorenpeter
+# avatar = http://darch.dk/avatar.png
+#    url = http://darch.dk/twtxt.txt
+#    gui = http://darch.dk/twtxt
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#
+
+2021-01-17T19:09:02+01:00	Hello interwebs
