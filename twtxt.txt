@@ -11,10 +11,10 @@
 #
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #
-#   nick = sorenpeter
-# avatar = http://darch.dk/avatar.png
-#    url = http://darch.dk/twtxt.txt
-#    gui = http://darch.dk/twtxt
+#   nick = YouName
+# avatar = http://example.com/avatar.png
+#    url = http://example.com/twtxt.txt
+#    gui = http://example.com/twtxt
 #
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #
