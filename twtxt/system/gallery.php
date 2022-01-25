@@ -9,14 +9,14 @@
 //$filecontent = file('../../twtxt.txt');
 $filecontent = file($twtxt);
 
-// Only posts containg images
+// Only posts containing images
 $img_pattern = '/!\[(.*?)\]\((.*?)\)/'; // Look for posts with images in markdown tags: ![alt](url)
 $img_posts = preg_grep($img_pattern, $filecontent);
 rsort($img_posts);
 //echo 'img_posts: '.count($img_posts).'<hr>';                  // FOR DEBUGING
 //echo '<hr><pre>'; print_r($img_posts);    echo '</pre>';      // FOR DEBUGING
 
-// Loop thouth each post and extract date and entrey text:
+// Loop through each post and extract date and entry text:
 foreach($img_posts as $post){ 
 
     $date = preg_filter('/^(?<date>[^\t]+)\t(?<entry>.+)/', '\1', $post) ;

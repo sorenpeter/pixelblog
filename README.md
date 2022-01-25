@@ -7,7 +7,7 @@ A visual focused microblog powered by twtxt.txt
 ## installation and setup
 
 
-## cosutimizing 
+## customization
 
 
 ## posting and uploading images

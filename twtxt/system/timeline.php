@@ -1,5 +1,5 @@
 <?php
-// Inlcude the file
+// Include the file
 include_once $base_path.'system/picoblog.php';
 
 // Instantiate the class with the source file
@@ -10,7 +10,7 @@ $mb = new \hxii\PicoBlog($twtxt);
 // Parse query string and get blog entries
 $query = $mb->parseQuery();
 //$entries = ($query) ? $mb->getEntries($query) : $mb->getEntries('all');
-$entries = ($query) ? $mb->getEntries($query) : $mb->getEntries('all', true); // sort in reverc is now true
+$entries = ($query) ? $mb->getEntries($query) : $mb->getEntries('all', true); // sort in reverse is now true
 
 ?>
 
