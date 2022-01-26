@@ -9,7 +9,7 @@ $txt_file = "../twtxt.txt"; // need to be relative to where you have installed p
 
 // Profile settings - TODO: get from the twtxt.txt
 $nick = "sørenpeter"; // What's ya name?
-$avatar_file = "../avatar.png"; // TODO: split into relative (user faceing) and absolute (backend)
+$avatar_file = "../avatar.png"; // TODO: split into relative (user facing) and absolute (backend)
 $description = "visualist and live coder"; // who are you?
 
 
@@ -34,11 +34,11 @@ $base_path = dirname(__FILE__).DIRECTORY_SEPARATOR;
 //echo $base_path . '<br>';
 
 //$base_url = '//'.$_SERVER['SERVER_NAME'].DIRECTORY_SEPARATOR;
-$base_url = $public_url; // TODO: replace all $base_url with $public_rul
+$base_url = $public_url; // TODO: replace all $base_url with $public_url
 //echo $base_url . '<br>';
 
 // Public path to avatar file:
-$avatar = $public_url.$avatar_file; // TODO: add realpath and use propper detection instead of hardcode url
+$avatar = $public_url.$avatar_file; // TODO: add realpath and use propper detection instead of hardcoded url
 //echo $avatar  . '<br>';
 
 // Backend path to twtxt.txt file:

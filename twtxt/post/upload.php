@@ -73,7 +73,7 @@ if(isset($_POST['submit'])) {
 				if ($file_size > $maxsize)		
 					echo "Error: File size is larger than the allowed limit.";
 
-				// If file with name already exist then append time in
+				// If file with name already exists then append time in
 				// front of name of the file to avoid overwriting of file
 				if(file_exists($file_path)) {
 					echo "Error uploading {$file_name} - File already exists! <br />";
