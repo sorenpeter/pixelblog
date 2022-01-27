@@ -14,16 +14,15 @@ $description = "visualist and live coder"; // who are you?
 
 
 // Path for uploading media:
-//$upload_folder = "media/"; // relative path to where you want pixelblog-post to uploade images to -- must end with a slash: / 
-$upload_folder = "../twtxt/"; // default is "media/"
+$upload_folder = "media/"; // relative path to where you want pixelblog-post to uploade images to -- must end with a slash: / 
 //echo $upload_folder . '<br>';
 
 
 // The base url for this Pixelblog -- must end with a slash: / 
-$public_url = "https://example.com/twtxt/";
+$public_url = "https://EDIT-ME.com/twtxt/";
 
-//$public_media = "https://example.com/pixelblog/media/"; // defaul(ish)
-$public_media = "https://example.com/twtxt/";
+$public_media = "https://EDIT-ME.com/twtxt/media/";
+//$public_media = "https://EDIT-ME.com/twtxt/";
 
 /* --------------------------------- */
 //echo '<hr>'; 
@@ -50,7 +49,7 @@ $media = realpath($base_path.$upload_folder).DIRECTORY_SEPARATOR;
 //echo $media  . '<br>';
 
 
-//$twtxt  = "https://example.com/twtxt.txt";
+//$twtxt  = "https://EDIT-ME.com/twtxt.txt";
 //$twtxt  = "https://twtxt.net/user/darch/twtxt.txt";
 
 // echo '<hr>';
