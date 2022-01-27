@@ -3,6 +3,8 @@ A visual focused microblog powered by twtxt
 
 Created by sørenpeter / www.darch.dk / sp@darch.dk 
 
+![](SCREENSHOT.png)
+
 ## About pixelblog
 
 Live demo at: https://darch.dk/pixelblog/
