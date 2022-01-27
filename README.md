@@ -24,6 +24,7 @@ You have have a microblog with image support, that looks nice and your can perso
 
 2. Upload the content of the zip to you webhosting using a FTP client
 	- The default would be to put eveything from within the pixelblog-folder in the root so you will have:
+
 		```
 		www.mysite.net/twtxt/ (folder)
 		www.mysite.net/twtxt.txt
@@ -52,10 +53,10 @@ You have have a microblog with image support, that looks nice and your can perso
 * Change the colors and other element `custom.css` to you liking
 
 * Advacned: Mess around with the files in `layout`
+	
 	* Add a link to `layout/nav-bar.php` to a page with your own special filters like: 
-	```
-			https://darch.dk/pixelblog/?tag=pixelblog
-	```
+
+	```<li><a href="<?=$public_url?>">?tag=event<i class="ti ti-calendar-event"></i>#events</a></li>```
 
 ## TODO and current limitations
 
