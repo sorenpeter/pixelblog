@@ -31,12 +31,12 @@ pixelblog does not offer any way to read feeds from others. for that you need a 
 	- The default would be to put eveything from within the pixelblog-folder in the root so you will have:
 
 		```
-		www.example.net/twtxt/			(go here to to see your timeline)
-		www.example.net/twtxt/gallery/	(go here to to see your gallery)
-		www.example.net/twtxt/post/		(go here to to post to your feed)
-		www.example.net/twtxt.txt		(where you feed lives and other can follow you)
-		www.example.net/avatar.png		(your pretty picture)
-		www.example.net/README.md 		(can be deleted)
+		example.net/twtxt/			(go here to to see your timeline)
+		example.net/twtxt/gallery/	(go here to to see your gallery)
+		example.net/twtxt/post/		(go here to to post to your feed)
+		example.net/twtxt.txt		(where you feed lives and other can follow you)
+		example.net/avatar.png		(your pretty picture)
+		example.net/README.md 		(can be deleted)
 		```
 	- or you can rename the folder `twtxt` to something else
 
