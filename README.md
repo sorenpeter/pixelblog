@@ -7,9 +7,7 @@ Created by sørenpeter / www.darch.dk / sp@darch.dk
 
 Live demo at: https://darch.dk/pixelblog/
 
-pixelblog is a visual focused selfhosted microblog using the twtxt protocol.
-
-It offers an easy way for making posts and uploading images, and having them presented in a good looking design, that you can also customize
+pixelblog is a visual focused selfhosted microblog using the twtxt protocol. It offers an easy way for making posts and uploading images, and having them presented in a good looking design, that you can also customize
 
 As of now pixelblog offeres two views of your posts. A timeline view similar to how your twitter or facebook feed would look like with text, hash-tags and images. And a gallery view similar to instagram, where alle your posted images are presented in a grid design.
 
@@ -18,7 +16,7 @@ Using [twtxt](https://twtxt.readthedocs.io) as the backend, all your post are si
 Currently pixelblog does not offer any way to read feeds from others. For that you need a [twtxt client](https://yarn.social#manually) or a profile on a [yarn.social](https://yarn.social) pod like [twtxt.net](https://twtxt.net/)
 
 
-## Installation and setup
+## 🛠 Installation and setup
 
 0. You need to have a webhosting with PHP and perferable running Apache or similar for pixelblog to work.
 
@@ -44,14 +42,14 @@ Currently pixelblog does not offer any way to read feeds from others. For that y
 5. Open up `www.example.net/twtxt/` in your browser and check for any errors
 
 
-### Password setup
+### 🔐 Password setup
 
 1. Go to a site like https://hostingcanada.org/htpasswd-generator/ and generate a username and password
 
 2. Add the username and password string as a new line in `post/.htpassword`
 
 
-## Posting to you twtxt feed
+## 📝 Posting to you twtxt feed
 
 1. In your browser got to you site, but now add `/post` to the end so it says somthing like `www.example.net/twtxt/post`
 
@@ -59,7 +57,7 @@ Currently pixelblog does not offer any way to read feeds from others. For that y
 
 3. Write you message in the input field and press "Post"
 
-### Uploading and posting images
+### 🖼 Uploading and posting images
 
 1. Select one or more images to upload
 
@@ -73,7 +71,7 @@ __Tip:__ The default is to have each images on it own line when in timeline view
 Only put `grid` in the square brackets of the first images unless you wants some funky side effects (you have been warrend!)
 
 
-## Customization
+## 🎨 Customization
 
 * Add you own `avatar.png` (can also be a .jpg or .gif)
 
@@ -81,7 +79,7 @@ Only put `grid` in the square brackets of the first images unless you wants some
 
 * Change the colors and other element `custom.css` to you liking
 
-### Advacned customization
+### 🪛 Advacned customization
 
 * Mess around with the files in `layout`
 	
@@ -89,17 +87,17 @@ Only put `grid` in the square brackets of the first images unless you wants some
 
 `<li><a href="<?=$public_url?>?tag=event"><i class="ti ti-calendar-event"></i>Events</a></li>`
 
-##  Current limitations
+## 🚧 Current limitations
 
 * The thumbnail function used only support local files, so if you want to use an external twtxt.txt or embed images not uploade via the `/post` feature you will need to turn it of by editing `system/Slimdown.php`
 
 
-## TODO
+## 🧰 TODO
 
 - [ ] Add screenshot to README
 - [ ] Adding support for thumbnail external images OR skip thumnail render for external images
 
-## Credits and others code 
+## 🙏 Credits and others code 
 
 * [twtxt](https://twtxt.readthedocs.io) - the original decentralised, minimalist microblogging service for hackers
 * [yarn.social](https://yarn.social/) - the multi-user pods allowed everyone to use twtxt as a social media without selfhosting
