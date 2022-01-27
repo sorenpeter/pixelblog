@@ -1,4 +1,4 @@
-# ![](https://github.com/sorenpeter/pixelblog/blob/main/avatar.png) pixelblog
+# pixelblog
 A visual focused microblog powered by twtxt
 
 Created by sørenpeter / www.darch.dk / sp@darch.dk 
@@ -7,18 +7,15 @@ Created by sørenpeter / www.darch.dk / sp@darch.dk
 
 Live demo at: https://darch.dk/pixelblog/
 
-So what is pixelblog? It my attemt at making a nice looking frontend / GUI for showing you fee
+pixelblog is a visual focused selfhosted microblog using the twtxt protocol.
 
-It kind of a merge of the core features of twitter and instgram: a timeline view of your posts and a nice gallery of all the images in your posts.
+It offers an easy way for making posts and uploading images, and having them presented in a good looking design, that you can also customize
 
-Key features:
-* Write posts to you `twtxt.txt` file using the `/post` interface
-* Image upload
-* Gallery view - show all images in a 
+As of now pixelblog offeres two views of your posts. A timeline view similar to how your twitter or facebook feed would look like with text, hash-tags and images. And a gallery view similar to instagram, where alle your posted images are presented in a grid design.
 
-You have have a microblog with image support, that looks nice and your can personalise and integrate into your excisting website
+Using [twtxt](https://twtxt.readthedocs.io) as the backend, all your post are simply lines in a textfile and can been fetched and read by a growing number of clients.
 
-pixelblog does not offer any way to read feeds from others. for that you need a [twtxt client](https://yarn.social#manually) or a profile on a [yarn.social](https://yarn.social) pod like [twtxt.net](https://twtxt.net/)
+Currently pixelblog does not offer any way to read feeds from others. For that you need a [twtxt client](https://yarn.social#manually) or a profile on a [yarn.social](https://yarn.social) pod like [twtxt.net](https://twtxt.net/)
 
 
 ## Installation and setup
@@ -99,6 +96,7 @@ Only put `grid` in the square brackets of the first images unless you wants some
 
 ## TODO
 
+- [ ] Add screenshot to README
 - [ ] Adding support for thumbnail external images OR skip thumnail render for external images
 
 ## Credits and others code 
