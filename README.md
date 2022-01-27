@@ -3,9 +3,9 @@ A visual focused microblog powered by twtxt
 
 Created by sørenpeter / www.darch.dk / sp@darch.dk 
 
-![](SCREENSHOT.png)
-
 ## About pixelblog
+
+![](SCREENSHOT.png)
 
 Live demo at: https://darch.dk/pixelblog/
 
@@ -105,6 +105,3 @@ Only put `grid` in the square brackets of the first images unless you wants some
 * [yarn.social](https://yarn.social/) - the multi-user pods allowed everyone to use twtxt as a social media without selfhosting
 * [picoblog](https://0xff.nu/picoblog) - the PHP backend that pixelblog are using for rendering the timeline view
 * [Thumb](https://github.com/jamiebicknell/Thumb) - a simple thumbnail generation script written in PHP
-
-
-

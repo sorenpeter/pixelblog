@@ -19,8 +19,7 @@
     </section>
 
     <aside><small>
-          <a href="#TODO" class="button">
-          <!-- <i class="ti ti-circle-plus"></i>&nbsp; --> How to follow...</a>
+          <a href="https://yarn.social/" class="button">How to follow...</a>
               
 <!--       <details>
         <summary>Block / Report User</summary>
