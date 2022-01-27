@@ -99,10 +99,10 @@ Only put `grid` in the square brackets of the first images unless you wants some
 
 ## TODO
 
-* [] Adding support for thumbnail external images OR skip thumnail render for external images
-* [] 
-* [] 
-* [] 
+- [] Adding support for thumbnail external images OR skip thumnail render for external images
+- [] 
+- [] 
+- [] 
 
 ## Credits and others code 
 
