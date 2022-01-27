@@ -42,7 +42,7 @@ Currently pixelblog does not offer any way to read feeds from others. For that y
 5. Open up `www.example.net/twtxt/` in your browser and check for any errors
 
 
-### 🔐 Password setup
+## 🔐 Password setup
 
 1. Go to a site like https://hostingcanada.org/htpasswd-generator/ and generate a username and password
 
@@ -57,7 +57,7 @@ Currently pixelblog does not offer any way to read feeds from others. For that y
 
 3. Write you message in the input field and press "Post"
 
-### 🖼 Uploading and posting images
+## 🖼 Uploading and posting images
 
 1. Select one or more images to upload
 
@@ -79,7 +79,7 @@ Only put `grid` in the square brackets of the first images unless you wants some
 
 * Change the colors and other element `custom.css` to you liking
 
-### 🪛 Advacned customization
+## 🪛 Advacned customization
 
 * Mess around with the files in `layout`
 	
