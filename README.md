@@ -78,12 +78,11 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 2. Copy the markdown code from the list to the input field together with you message or just post images if you like.
 	`![](http://www.example.net/twtxt/media/2022-01-27_my_picture.png)`
 
-__Tip:__ The default is to have each images on it own line when in timeline view. But to get a grid view with up to 5 images side by side, you can include the word `grid` in the first image of several like this:
+__Tip:__ The default design in timeline view is to have each images on it own line. But to get a grid view with up to 5 images side by side in a specific post, you can include the word `grid` in the first image of several like this:
 
 ```![grid](http://www.example.net/twtxt/media/2022-01-27_my_picture_1.png) ![](http://www.example.net/twtxt/media/2022-01-27_my_picture_2.png) ![](http://www.example.net/twtxt/media/2022-01-27_my_picture_3.png)```
 
 Only put `grid` in the square brackets of the first images unless you wants some funky side effects (you have been warrend!)
-
 
 ## 🎨 Customization
 
