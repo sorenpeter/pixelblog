@@ -1,4 +1,4 @@
-# pixelblog
+# ![](https://github.com/sorenpeter/pixelblog/blob/main/avatar.png) pixelblog
 A visual focused microblog powered by twtxt
 
 Created by sørenpeter / www.darch.dk / sp@darch.dk 
@@ -100,9 +100,6 @@ Only put `grid` in the square brackets of the first images unless you wants some
 ## TODO
 
 - [ ] Adding support for thumbnail external images OR skip thumnail render for external images
-- [ ] 
-- [ ] 
-- [ ] 
 
 ## Credits and others code 
 
