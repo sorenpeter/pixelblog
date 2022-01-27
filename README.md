@@ -88,7 +88,9 @@ Only put `grid` in the square brackets of the first images unless you wants some
 
 * Mess around with the files in `layout`
 	
-* Add a link to `layout/nav-bar.php` to a page with your own special filter like: `<li><a href="<?=$public_url?>?tag=event"><i class="ti ti-calendar-event"></i>Events</a></li>`
+* Add a link to `layout/nav-bar.php` to a page with your own special filter like:
+
+`<li><a href="<?=$public_url?>?tag=event"><i class="ti ti-calendar-event"></i>Events</a></li>`
 
 ##  Current limitations
 
