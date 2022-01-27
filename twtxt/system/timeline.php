@@ -17,10 +17,10 @@ $entries = ($query) ? $mb->getEntries($query) : $mb->getEntries('all', true); //
 <center>
     <?php
     // Display message and link to main list if viewing a filtered entry list
-    if ($query) {
-        echo '<small class="warning">Currently only viewing posts from:</small><br><code>' . implode('', $query) . '</code>';
+    // if ($query) {
+        // echo '<small class="warning">Currently only viewing posts from:</small><br><code>' . implode('', $query) . '</code>';
         // echo '<p><a href="' . $_SERVER['PHP_SELF'] . '">Go back to full timeline</a></p>';
-    }
+    // }
     ?>
 </center>
 
