@@ -1,12 +1,11 @@
 # pixelblog
-A visual focused microblog powered by twtxt.txt
+A visual focused microblog powered by twtxt
 
-created by sorenpeter / www.darch.dk / sp@darch.dk 
+Created by sørenpeter / www.darch.dk / sp@darch.dk 
 
+## About pixelblog
 
-## about pixelblog
-
-See it live at: https://darch.dk/pixelblog/
+Live demo at: https://darch.dk/pixelblog/
 
 So what is pixelblog? It my attemt at making a nice looking frontend / GUI for showing you fee
 
@@ -19,9 +18,10 @@ Key features:
 
 You have have a microblog with image support, that looks nice and your can personalise and integrate into your excisting website
 
+pixelblog does not offer any way to read feeds from others. for that you need a [twtxt client](https://yarn.social#manually) or a profile on a [yarn.social](https://yarn.social) pod like [twtxt.net](https://twtxt.net/)
 
 
-## installation and setup
+## Installation and setup
 
 0. You need to have a webhosting with PHP and perferable running Apache or similar for pixelblog to work.
 
@@ -31,10 +31,12 @@ You have have a microblog with image support, that looks nice and your can perso
 	- The default would be to put eveything from within the pixelblog-folder in the root so you will have:
 
 		```
-		www.mysite.net/twtxt/ (folder)
-		www.mysite.net/twtxt.txt
-		www.mysite.net/avatar.png
-		www.mysite.net/README.md (can be deleted)
+		www.example.net/twtxt/			(go here to to see your timeline)
+		www.example.net/twtxt/gallery/	(go here to to see your gallery)
+		www.example.net/twtxt/post/		(go here to to post to your feed)
+		www.example.net/twtxt.txt		(where you feed lives and other can follow you)
+		www.example.net/avatar.png		(your pretty picture)
+		www.example.net/README.md 		(can be deleted)
 		```
 	- or you can rename the folder `twtxt` to something else
 
@@ -42,62 +44,70 @@ You have have a microblog with image support, that looks nice and your can perso
 
 4. Open `config.php` and edit the setting to you liking and setup
 
-5. Open up `www.mysite.net/twtxt/` in your browser and check for any errors
+5. Open up `www.example.net/twtxt/` in your browser and check for any errors
 
 
-### password setup
+### Password setup
 
 1. Go to a site like https://hostingcanada.org/htpasswd-generator/ and generate a username and password
 
 2. Add the username and password string as a new line in `post/.htpassword`
 
 
-## posting to you twtxt feed
+## Posting to you twtxt feed
 
-1. In your browser got to you site, but now add `/post` to the end so it says somthing like `www.mysite.net/twtxt/post`
+1. In your browser got to you site, but now add `/post` to the end so it says somthing like `www.example.net/twtxt/post`
 
 2. Type in your username and password (see above for setup)
 
 3. Write you message in the input field and press "Post"
 
-### uploading and posting images
+### Uploading and posting images
 
 1. Select one or more images to upload
 
 2. Copy the markdown code from the list to the input field together with you message or just post images if you like.
-	`![](http://www.mysite.net/twtxt/media/2022-01-27_my_picture.png)`
+	`![](http://www.example.net/twtxt/media/2022-01-27_my_picture.png)`
 
-- There is a special feature build into pixelblog that allows you to set if the images within a post should be show as a grid side by side or eath image on its own line. 
+__Tip:__ The default is to have each images on it own line when in timeline view. But to get a grid view with up to 5 images side by side, you can include the word `grid` in the first image of several like this:
 
+```![grid](http://www.example.net/twtxt/media/2022-01-27_my_picture_1.png) ![](http://www.example.net/twtxt/media/2022-01-27_my_picture_2.png) ![](http://www.example.net/twtxt/media/2022-01-27_my_picture_3.png)```
 
-The default is to have each images on it own line when in timeline view. But to get a grid view with up to 5 images side by side, you can include the word `grid` in the first image of several like this:
-`![grid](http://www.mysite.net/twtxt/media/2022-01-27_my_picture_1.png) ![](http://www.mysite.net/twtxt/media/2022-01-27_my_picture_2.png) ![](http://www.mysite.net/twtxt/media/2022-01-27_my_picture_3.png)`
 Only put `grid` in the square brackets of the first images unless you wants some funky side effects (you have been warrend!)
 
 
-## customization
+## Customization
+
+* Add you own `avatar.png` (can also be a .jpg or .gif)
 
 * Open op `custom.css` and try out the provided themes by uncommenting the code
 
 * Change the colors and other element `custom.css` to you liking
 
-* __Advacned:__ Mess around with the files in `layout`
+### Advacned customization
+
+* Mess around with the files in `layout`
 	
-	* Add a link to `layout/nav-bar.php` to a page with your own special filter like: `<li><a href="<?=$public_url?>?tag=event"><i class="ti ti-calendar-event"></i>Events</a></li>`
+* Add a link to `layout/nav-bar.php` to a page with your own special filter like: `<li><a href="<?=$public_url?>?tag=event"><i class="ti ti-calendar-event"></i>Events</a></li>`
 
-## TODO and current limitations
+##  Current limitations
 
-- The thumbnail function used only support local files, so if you want to use an external twtxt.txt or embed images not uploade via the `/post` feature you will need to turn it of by editing `system/Slimdown.php`
+* The thumbnail function used only support local files, so if you want to use an external twtxt.txt or embed images not uploade via the `/post` feature you will need to turn it of by editing `system/Slimdown.php`
 
-## credits and others code 
 
-- [twtxt](https://twtxt.readthedocs.io) - the original decentralised, minimalist microblogging service for hackers
+## TODO
 
-- [yarn.social](https://yarn.social/) - the multi-user pods allowed everyone to use twtxt as a social media without selfhosting
+* [ ] 
+* [ ] 
+* [ ] 
+* [ ] 
 
-- [picoblog](https://0xff.nu/picoblog) - the PHP backend that pixelblog are using for rendering the timeline view
+## Credits and others code 
 
-- [Thumb](https://github.com/jamiebicknell/Thumb) - a simple thumbnail generation script written in PHP
+* [twtxt](https://twtxt.readthedocs.io) - the original decentralised, minimalist microblogging service for hackers
+* [yarn.social](https://yarn.social/) - the multi-user pods allowed everyone to use twtxt as a social media without selfhosting
+* [picoblog](https://0xff.nu/picoblog) - the PHP backend that pixelblog are using for rendering the timeline view
+* [Thumb](https://github.com/jamiebicknell/Thumb) - a simple thumbnail generation script written in PHP
 
 
 
