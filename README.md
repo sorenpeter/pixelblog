@@ -91,7 +91,7 @@ Only put `grid` in the square brackets of the first images unless you wants some
 
 * Open op `custom.css` and try out the provided themes by uncommenting the code
 
-* Change the colors and other element `custom.css` to you liking
+* Change the colors and other elements in `custom.css` to you liking
 
 ## 🪛 Advacned customization
 
@@ -99,7 +99,7 @@ Only put `grid` in the square brackets of the first images unless you wants some
 	
 * Add a link to `layout/nav-bar.php` to a page with your own special filter like:
 
-`<li><a href="<?=$public_url?>?tag=event"><i class="ti ti-calendar-event"></i>Events</a></li>`
+	`<li><a href="<?=$public_url?>?tag=event"><i class="ti ti-calendar-event"></i>Events</a></li>`
 
 ## 🚧 Current limitations
 
