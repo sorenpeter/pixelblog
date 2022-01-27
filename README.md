@@ -18,6 +18,18 @@ Using [twtxt](https://twtxt.readthedocs.io) as the backend, all your post are si
 Currently pixelblog does not offer any way to read feeds from others. For that you need a [twtxt client](https://yarn.social#manually) or a profile on a [yarn.social](https://yarn.social) pod like [twtxt.net](https://twtxt.net/)
 
 
+## 🚨 DISCLAIMER // WARNING
+
+I'm not a professional programmer, so this software might lead to data lose or making your website unsecure in unforeseen ways.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
 ## 🛠 Installation and setup
 
 0. You need to have a webhosting with PHP and perferable running Apache or similar for pixelblog to work.
@@ -98,6 +110,7 @@ Only put `grid` in the square brackets of the first images unless you wants some
 
 - [ ] Add screenshot to README
 - [ ] Adding support for thumbnail external images OR skip thumnail render for external images
+
 
 ## 🙏 Credits and others code 
 
