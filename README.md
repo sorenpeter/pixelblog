@@ -15,7 +15,7 @@ As of now pixelblog offeres two views of your posts. A timeline view similar to 
 
 Using [twtxt](https://twtxt.readthedocs.io) as the backend, all your post are simply lines in a textfile and can been fetched and read by a growing number of clients.
 
-Currently pixelblog does not offer any way to read feeds from others. For that you need a [twtxt client](https://yarn.social#manually) or a profile on a [yarn.social](https://yarn.social) pod like [twtxt.net](https://twtxt.net/). You can also use the brower plugin or desktop app from [fraidyc](https://fraidyc.at/blog/fraidycat-1.1.7-sniffppl.txt/) to follow twtxt feeds.
+Currently pixelblog does not offer any way to read feeds from others. For that you need a [twtxt client](https://yarn.social#manually) or a profile on a [yarn.social](https://yarn.social) pod like [twtxt.net](https://twtxt.net/). You can also use the brower plugin or desktop app from [fraidyc](https://fraidyc.at) to follow twtxt feeds.
 
 
 ## 🚨 DISCLAIMER // WARNING
