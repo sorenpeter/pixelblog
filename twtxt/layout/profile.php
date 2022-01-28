@@ -19,7 +19,7 @@
     </section>
 
     <aside><small>
-          <a href="https://yarn.social/" class="button">How to follow...</a>
+          <a href="https://github.com/sorenpeter/pixelblog/#about-pixelblog" class="button">How to follow...</a>
               
 <!--       <details>
         <summary>Block / Report User</summary>
