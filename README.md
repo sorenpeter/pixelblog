@@ -15,7 +15,7 @@ As of now pixelblog offeres two views of your posts. A timeline view similar to 
 
 Using [twtxt](https://twtxt.readthedocs.io) as the backend, all your post are simply lines in a textfile and can been fetched and read by a growing number of clients.
 
-Currently pixelblog does not offer any way to read feeds from others. For that you need a [twtxt client](https://yarn.social#manually) or a profile on a [yarn.social](https://yarn.social) pod like [twtxt.net](https://twtxt.net/)
+Currently pixelblog does not offer any way to read feeds from others. For that you need a [twtxt client](https://yarn.social#manually) or a profile on a [yarn.social](https://yarn.social) pod like [twtxt.net](https://twtxt.net/). You can also use the brower plugin or desktop app from [fraidyc](https://fraidyc.at/blog/fraidycat-1.1.7-sniffppl.txt/) to follow twtxt feeds.
 
 
 ## 🚨 DISCLAIMER // WARNING
@@ -40,9 +40,9 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 	- The default would be to put eveything from within the pixelblog-folder in the root so you will have:
 
 		```
-		www.example.net/twtxt/            (go here to to see your timeline)
-		www.example.net/twtxt/gallery/    (go here to to see your gallery)
-		www.example.net/twtxt/post/       (go here to to post to your feed)
+		www.example.net/twtxt/            (go here to see your timeline)
+		www.example.net/twtxt/gallery/    (go here to see your gallery)
+		www.example.net/twtxt/post/       (go here to post to your feed)
 		www.example.net/twtxt.txt         (where you feed lives and other can follow you)
 		www.example.net/avatar.png        (your pretty picture)
 		www.example.net/README.md         (can be deleted)
@@ -88,13 +88,13 @@ Only put `grid` in the square brackets of the first images unless you wants some
 
 * Add you own `avatar.png` (can also be a .jpg or .gif)
 
-* Open op `custom.css` and try out the provided themes by uncommenting the code
+* Open up `custom.css` and try out the provided themes by uncommenting the code
 
 * Change the colors and other elements in `custom.css` to you liking
 
 ## 🪛 Advacned customization
 
-* Mess around with the files in `layout`
+* Mess around with the files in the `layout/` folder
 	
 * Add a link to `layout/nav-bar.php` to a page with your own special filter like:
 
@@ -103,12 +103,6 @@ Only put `grid` in the square brackets of the first images unless you wants some
 ## 🚧 Current limitations
 
 * The thumbnail function used only support local files, so if you want to use an external twtxt.txt or embed images not uploade via the `/post` feature you will need to turn it of by editing `system/Slimdown.php`
-
-
-## 🧰 TODO
-
-- [x] Add screenshot to README
-- [ ] Adding support for thumbnail external images OR skip thumnail render for external images
 
 
 ## 🙏 Credits and others code 
