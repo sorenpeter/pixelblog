@@ -114,6 +114,7 @@ Only put `grid` in the square brackets of the first images unless you wants some
 ## 🙏 Credits and others code 
 
 * [twtxt](https://twtxt.readthedocs.io) - the original decentralised, minimalist microblogging service for hackers
-* [yarn.social](https://yarn.social/) - the multi-user pods allowed everyone to use twtxt as a social media without selfhosting
+* [yarn.social](https://yarn.social) - the multi-user pods allowed everyone to use twtxt as a social media without selfhosting
 * [picoblog](https://0xff.nu/picoblog) - the PHP backend that pixelblog are using for rendering the timeline view
 * [Thumb](https://github.com/jamiebicknell/Thumb) - a simple thumbnail generation script written in PHP
+* [Tabler Icons](https://tabler-icons.io) - the icon set that is used for navigation item
