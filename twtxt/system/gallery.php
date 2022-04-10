@@ -23,6 +23,7 @@ foreach($img_posts as $post){
     $entry = preg_filter('/^(?<date>[^\t]+)\t(?<entry>.+)/', '\2', $post) ;
     $text_only = preg_filter('/!\[(.*?)\]\((.*?)\)/', '\1', $entry); // this gives the post without the markdown img links (not sure why, but it works)
     $text_only = trim($text_only);
+    $text_only = strip_tags($text_only);
 
     preg_match_all('/!\[(?<alt>.*?)\]\((?<url>.*?)\)/', $entry, $img_array);
     //echo '<pre>'; print_r($img_array);    echo '</pre>';      // FOR DEBUGING
