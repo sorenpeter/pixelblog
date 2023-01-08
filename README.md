@@ -112,4 +112,4 @@ Only put `grid` in the square brackets of the first images unless you wants some
 * [picoblog](https://0xff.nu/picoblog) - the PHP backend that pixelblog are using for rendering the timeline view
 * [Thumb](https://github.com/jamiebicknell/Thumb) - a simple thumbnail generation script written in PHP
 * [Tabler Icons](https://tabler-icons.io) - the icon set that is used for navigation item
-* [ekkoflok](https://ekkoflok.dk) - thx for inspiration and help with PHP gallery functionality 
+* [ekkoflok](https://ekkoflok.dk) - thanks for inspiration and help with PHP gallery functionality 
